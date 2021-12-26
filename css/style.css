@@ -11,6 +11,27 @@ body {
     height: 100%;
     overflow: hidden;
 }
+.game-text {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    left: 0;
+    top: 0;
+    color: #fff;
+    font-size: 50px;
+}
+.game-text > button {
+    padding: 0.5 rem 1rem;
+    color: #fff;
+    background: salmon;
+    border: none;
+    cursor: pointer;
+}
 .score {
     text-align: center;
     font-size: 36px;
@@ -32,4 +53,22 @@ body {
     width: 25px;
     height: 25px;
     outline: 1px solid #ccc;
+}
+.square {
+    background: #ECC503;
+}
+.bar {
+    background: #68A1D9;
+}
+.tree {
+    background: #ff0000;
+}
+.zee {
+    background: #6AB440;
+}
+.elLeft {
+    background: #422B4C;
+}
+.elRight {
+    background: #F15F28;
 }
